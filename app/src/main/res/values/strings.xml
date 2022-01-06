@@ -2,4 +2,6 @@
     <string name="app_name">Conductor-Example</string>
     <string name="home_controller">Home Controller</string>
     <string name="button">Button</string>
+    <string name="second_controller">Second Controller</string>
+    <string name="first_controller">First Controller</string>
 </resources>
