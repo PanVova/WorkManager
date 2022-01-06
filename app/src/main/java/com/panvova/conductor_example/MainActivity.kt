@@ -4,11 +4,8 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.bluelinelabs.conductor.Conductor
 import com.bluelinelabs.conductor.Router
-import com.panvova.conductor_example.databinding.ActivityMainBinding
 import com.bluelinelabs.conductor.RouterTransaction
-
-
-
+import com.panvova.conductor_example.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
