@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Conductor-Example</string>
+    <string name="home_controller">Home Controller</string>
+    <string name="button">Button</string>
+</resources>
