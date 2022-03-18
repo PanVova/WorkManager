@@ -17,13 +17,6 @@ class HomeController : BaseController<ControllerHomeBinding>(ControllerHomeBindi
 
   override fun onAttach(view: View) {
     super.onAttach(view)
-    binding.button.setOnClickListener {
-      router.pushController(
-        RouterTransaction.with(FirstController())
-          .pushChangeHandler(FadeChangeHandler())
-          .popChangeHandler(FadeChangeHandler())
-      )
-    }
     binding.workManager.setOnClickListener {
       val myWork = OneTimeWorkRequest.Builder(MyWorker::class.java)
         .setInitialDelay(3, SECONDS)
